@@ -23,5 +23,77 @@
         <welcome-file>/jsp/login.jsp</welcome-file>
     </welcome-file-list>
 
+    <servlet>
+        <servlet-name>ActividadServlet</servlet-name>
+        <servlet-class>com.multiworksgroup.controller.ActividadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ActividadServlet</servlet-name>
+        <url-pattern>/ActividadServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AsignacionTareaServlet</servlet-name>
+        <servlet-class>com.multiworksgroup.controller.AsignacionTareaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AsignacionTareaServlet</servlet-name>
+        <url-pattern>/AsignacionTareaServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ClienteServlet</servlet-name>
+        <servlet-class>com.multiworksgroup.controller.ClienteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClienteServlet</servlet-name>
+        <url-pattern>/ClienteServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CotizacionServlet</servlet-name>
+        <servlet-class>com.multiworksgroup.controller.CotizacionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CotizacionServlet</servlet-name>
+        <url-pattern>/CotizacionServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmpleadoServlet</servlet-name>
+        <servlet-class>com.multiworksgroup.controller.EmpleadoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EmpleadoServlet</servlet-name>
+        <url-pattern>/EmpleadoServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.multiworksgroup.controller.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.multiworksgroup.controller.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UsuarioServlet</servlet-name>
+        <servlet-class>com.multiworksgroup.controller.UsuarioServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UsuarioServlet</servlet-name>
+        <url-pattern>/UsuarioServlet</url-pattern>
+    </servlet-mapping>
+
 
 </web-app>

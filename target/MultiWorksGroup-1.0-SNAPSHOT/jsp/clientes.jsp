@@ -97,7 +97,7 @@
                                     </div>
                                     <div class="col-md-12 mt-3">
                                         <button type="submit" class="btn btn-success btn-sm"><i class="fas fa-save"></i> Guardar Cliente</button>
-                                        <a href="clientes.jsps" class="btn btn-secondary btn-sm ms-2"><i class="fas fa-times"></i> Cancelar</a>
+                                        <a href="clientes.jsp" class="btn btn-secondary btn-sm ms-2"><i class="fas fa-times"></i> Cancelar</a>
                                     </div>
                                 </div>
                             </form>
@@ -141,7 +141,7 @@
                                     </div>
                                     <div class="col-md-12 mt-3">
                                         <button type="submit" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i> Actualizar Cliente</button>
-                                        <a href="/jsp/clientes.jsps" class="btn btn-secondary btn-sm ms-2"><i class="fas fa-times"></i> Cancelar</a>
+                                        <a href="clientes.jsp" class="btn btn-secondary btn-sm ms-2"><i class="fas fa-times"></i> Cancelar</a>
                                     </div>
                                 </div>
                             </form>
